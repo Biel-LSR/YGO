@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-gi-oh! Card Viewer</title>
+    <link rel="shortcut icon" href="https://i.pinimg.com/736x/45/e3/d5/45e3d5f3c3d1420a46e2d9305a81b0b2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <img src="assets/2auhndv3s0malleamfdcn36tmf-5a5ba1ae9fde7e83742135c5f555d311.png" alt="imagem do logo" style="width: 300px; margin-bottom: 20px;">
+        <div class="carrossel-container">
+            <!-- Slides com imagens diferentes -->
+            <div class="carrossel-slide active">
+                <img src="assets/Captura de tela 2026-03-19 150326.png" alt="">
+                <div class="slide-caption"></div>
+            </div>
+            <div class="carrossel-slide">
+                <img src="assets/Captura de tela 2026-03-19 145944.png" alt="">
+                <div class="slide-caption"></div>
+            </div>
+            <div class="carrossel-slide">
+                <img src="assets/Captura de tela 2026-03-19 145843.png" alt="Praia">
+                <div class="slide-caption"></div>
+            </div>
+            <div class="carrossel-slide">
+                <img src="assets/Captura de tela 2026-03-19 145739.png" alt="">
+                <div class="slide-caption="></div>
+            </div>
+            <div class="carrossel-slide">
+                <img src="assets/Captura de tela 2026-03-19 145811.png" alt="">
+                <div class="slide-caption"></div>
+            </div>
+            
+            <!-- Barra de progresso do timer -->
+            <div class="timer-bar" id="timerBar"></div>
+        </div>
+        
+        <!-- Indicadores -->
+        <div class="indicators" id="indicators"></div>
+        
+        <!-- Controles manuais -->
+        <div class="controls">
+            <button class="control-btn" id="prevBtn">Anterior</button>
+            <button class="control-btn" id="pauseBtn">Pausar</button>
+            <button class="control-btn" id="nextBtn">Próximo</button>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

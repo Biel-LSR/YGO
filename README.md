@@ -11,7 +11,8 @@ Design Responsivo: Layout adaptável para dispositivos móveis, tablets e deskto
 ### 💻 Tecnologias Utilizadas
 Frontend: HTML5, CSS3, JavaScript (ES6+)
 Estilização: CSS3
-Ferramentas: Git, GitHub
-Hospedagem: GitHub Pages
+Ferramentas: Git, GitHub, VScode
+Hospedagem: Cloudflare
 
 Este projeto está configurado para deploy automático na GitHub Pages. A cada push para a branch main, o site é automaticamente atualizado.
+## Link: https://rough-waterfall-5fbf.gsribe123.workers.dev/

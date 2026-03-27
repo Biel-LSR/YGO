@@ -15,4 +15,4 @@ Ferramentas: Git, GitHub, VScode
 Hospedagem: Cloudflare
 
 Este projeto está configurado para deploy automático na GitHub Pages. A cada push para a branch main, o site é automaticamente atualizado.
-## Link: https://rough-waterfall-5fbf.gsribe123.workers.dev/
+## Link: https://nameless-rain-fe89.gsribe123.workers.dev/
